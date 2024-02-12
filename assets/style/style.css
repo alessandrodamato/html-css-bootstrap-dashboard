@@ -1,5 +1,8 @@
 :root{
   --body-white:#f8f9fa;
+  --searchbar-grey:#e5e5e5;
+  --ad-info:#5a5757;
+  --ad-warning:#ff8f00;
 }
 
 body{
@@ -14,14 +17,43 @@ body{
   background-color: rgba(120, 0, 120, .2);
 }
 
+.ad_fs-08{
+  font-size: .8rem;
+}
+
+.ad_text-warning{
+  color: var(--ad-warning);
+}
+
+.ad_text-info{
+  color: var(--ad-info);
+}
+
 /* header */
 
 header{
   height: 70px;
 }
 
-header .logo{
-  width: 50px;
+header .mobile-logo{
+  width: 45px;
+}
+
+header .searchbar{
+  height: 45px;
+  background-color: var(--searchbar-grey);
+}
+
+header .searchbar .search-icon{
+  width: 30px;
+}
+
+header .searchbar input{
+  background-color: var(--searchbar-grey);
+}
+
+header nav{
+  height: 45px;
 }
 
 /* main */
