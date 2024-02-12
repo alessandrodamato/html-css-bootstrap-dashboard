@@ -80,14 +80,91 @@
             <div class="row">
 
               <div class="col-12 col-md-4 col-xl-2 order-md-2">
-                <div class="ad_col-content d-flex align-items-center">
-                  <span>Nuovo Studente</span>
-                  <button>a</button>
+                <div class="ad_col-content d-flex align-items-center align-items-md-start justify-content-md-start">
+
+                  <span class="me-3">Nuovo Studente</span>
+
+                  <button class="btn btn-outline-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop"><i class="fa-solid fa-plus"></i></button>
+                  
+                  <div class="ad_right-menu offcanvas offcanvas-end w-100" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="staticBackdropLabel">Inserisci un nuovo studente</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <div>
+                        <form action="#">
+                          <div class="container-fluid">
+                            <div class="row">
+
+                              <div class="col-12">
+                                <label for="Name" class="d-block mb-2">Nome</label>
+                                <input type="text" class="w-100 rounded-3 mb-3 ad_input-border">
+                              </div>
+
+                              <div class="col-12">
+                                <label for="Surname" class="d-block mb-2">Cognome</label>
+                                <input type="text" class="w-100 rounded-3 mb-3 ad_input-border">
+                              </div>
+
+                              <div class="col-12">
+                                <label for="email" class="mb-2">Email</label>
+                                <div class="w-100 d-flex ad_input-border rounded-3 mb-3 overflow-hidden">
+                                  <div class="ad_input-left d-flex justify-content-center align-items-center  ad_bg-searchbar ad_input-border-right">@</div>
+                                  <input type="email" class="w-100 border-0">
+                                </div>
+                              </div>
+
+                              <div class="col-12">
+                                <label for="Password" class="d-block mb-2">Password</label>
+                                <input type="password" class="w-100 rounded-3 mb-3 ad_input-border">
+                              </div>
+                      
+                              <div class="col-12">
+                                <label for="address" class="d-block mb-2">Indirizzo</label>
+                                <input type="text" class="w-100 rounded-3 mb-3 ad_input-border">
+                              </div>
+
+                              <div class="col-12">
+                                <label for="city" class="d-block mb-2">Città</label>
+                                <input type="text" class="w-100 rounded-3 mb-3 ad_input-border">
+                              </div>
+
+                              <div class="col-12">
+                                <label for="state" class="d-block mb-2">Stato</label>
+                                <select name="Scegli" id="choose" class="w-100 rounded-3 mb-3 ad_input-border bg-white ">
+                                  <option value="1">Scegli...</option>
+                                  <option value="2">Italia</option>
+                                  <option value="3">Francia</option>
+                                  <option value="4">Germania</option>
+                                </select>
+                              </div>
+
+                              <div class="col-12">
+                                <label for="CAP" class="d-block mb-2">CAP</label>
+                                <input type="text" class="w-100 rounded-3 mb-3 ad_input-border">
+                              </div>
+
+                              <div class="col-12">
+                                <label for="File" class="mb-2">Foto</label>
+                                <div class="w-100 d-flex ad_input-border rounded-3 mb-3 overflow-hidden">
+                                  <div class="ad_input-left-big d-flex justify-content-center align-items-center  ad_bg-searchbar ad_input-border-right">Scegli file</div>
+                                  <input type="text" placeholder="Nessun file selezionato" class="w-100 border-0">
+                                </div>
+                              </div>
+
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+
                 </div>
               </div>
 
-              <div class="col-12 col-md-4 col-xl-7">
-                <div class="ad_col-content d-flex flex-column justify-content-center">
+              <div class="col-12 col-md-4 col-xl-6">
+                <div class="ad_col-content d-flex flex-column justify-content-center justify-content-md-start align-items-md-start">
                   <div>
                     <h2 class="d-inline-block">Boolean</h2>
                     <span class="badge rounded-pill fw-medium ad_fs-09 ad_bg-badge ms-1">Piano blaze</span>
@@ -103,8 +180,8 @@
                 </div>
               </div>
               
-              <div class="col-12 col-md-4 col-xl-3 order-md-1">
-                <div class="ad_col-content d-flex flex-column justify-content-center">
+              <div class="col-12 col-md-4 col-xl-4 order-md-1">
+                <div class="ad_col-content d-flex flex-column justify-content-center justify-content-md-start align-items-md-start">
                   <span class="mb-2">Studenti online negli ultimi 30 minuti</span>
                   <h2>125</h2>
                 </div>
