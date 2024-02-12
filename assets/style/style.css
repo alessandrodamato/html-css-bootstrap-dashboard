@@ -53,6 +53,10 @@ header .searchbar input{
   background-color: var(--searchbar-grey);
 }
 
+header .searchbar input:focus{
+  outline: none;
+}
+
 header nav{
   height: 45px;
 }
