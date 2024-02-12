@@ -14,15 +14,14 @@ body{
   background-color: rgba(120, 0, 120, .2);
 }
 
-.ad_mt-70{
-  margin-top: 70px;
-}
-
 /* header */
 
 header{
-  width: 100%;
   height: 70px;
+}
+
+header .logo{
+  width: 50px;
 }
 
 /* main */
