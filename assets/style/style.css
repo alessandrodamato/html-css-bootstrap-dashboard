@@ -1,0 +1,55 @@
+:root{
+  --body-white:#f8f9fa;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--body-white);
+}
+
+/* utilities */
+
+.debug{
+  border: 1px solid black;
+  background-color: rgba(120, 0, 120, .2);
+}
+
+.ad_mt-70{
+  margin-top: 70px;
+}
+
+/* header */
+
+header{
+  width: 100%;
+  height: 70px;
+}
+
+/* main */
+
+main{
+  height: calc(100vh - 70px);
+}
+
+main aside{
+  width: 70px;
+}
+
+main .main-content{
+  width: calc(100% - 70px)
+}
+
+/* @media */
+
+/* tablet */
+
+/* desktop */
+@media screen and (min-width:1200px){
+  main aside{
+    width: 150px;
+  }
+
+  main .main-content{
+    width: calc(100% - 150px)
+  }
+}
