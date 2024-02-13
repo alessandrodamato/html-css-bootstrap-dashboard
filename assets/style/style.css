@@ -43,23 +43,6 @@ body{
   background-color: var(--searchbar-grey);
 }
 
-.ad_input-left{
-  width: 40px;
-  height: 40px;
-}
-
-.ad_input-left-big{
-  width: 130px;
-}
-
-.ad_input-border{
-  border: 1px solid lightgray !important;
-}
-
-.ad_input-border-right{
-  border-right: 1px solid lightgray !important;
-}
-
 /* header */
 
 header{
@@ -83,8 +66,7 @@ header .searchbar input{
   background-color: var(--searchbar-grey);
 }
 
-header .searchbar input:focus,
-main .main-content .main-top .ad_right-menu .offcanvas-body form input:focus{
+header .searchbar input:focus{
   outline: none;
 }
 
@@ -119,11 +101,6 @@ main .main-content .main-top{
 
 main .main-content .main-top .ad_col-content{
   height: 90px;
-}
-
-main .main-content .main-top .ad_right-menu .offcanvas-body form input,
-main .main-content .main-top .ad_right-menu .offcanvas-body form select{
-  height: 40px;
 }
 
 /* @media */
