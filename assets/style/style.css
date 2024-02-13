@@ -19,6 +19,10 @@ body{
   border: 1px solid black;
 }
 
+.w-40{
+  width: 40%;
+}
+
 .ad_fs-08{
   font-size: .8rem !important;
 }
@@ -101,6 +105,12 @@ main .main-content .main-top{
 
 main .main-content .main-top .ad_col-content{
   height: 90px;
+}
+
+main .main-content .main-bottom table .ad_tab-avatar{
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
 }
 
 /* @media */
