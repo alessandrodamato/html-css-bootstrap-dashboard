@@ -8,7 +8,7 @@ Potrebbero tornarci utili anche classi helper, utilities etc.
 Avrete due giorni per completare il layout, come sempre partite dall’analisi delle macroaree.  
 Di questo cercate anche di capire cosa è uguale o molto simile e quindi realizzabile una volta per poi essere riciclato, ottimizzando tempo e codice.  
 
-**Consigli**:  
+**Consigli**  
 Ricordiamo che lavorando in responsive ogni blocco e sezione va pensato in quell’ottica da subito.  
 Tenete un approccio ordinato ma non strafate anche con l’ottimizzazione durante il primo sviluppo di ogni blocco. Prima di passare al prossimo potete sempre tornarci e ripulire/ottimizzare/aggiustare.  
 Soprattutto in ottica di riciclo, questo approccio, sul lungo termine vi farà risparmiare tempo.  
